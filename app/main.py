@@ -1,5 +1,3 @@
-import secrets
-from pprint import pprint
 from typing import Annotated
 
 from fastapi import Depends, FastAPI, HTTPException, status
