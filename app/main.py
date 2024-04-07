@@ -10,7 +10,7 @@ import requests
 import logging
 # 5649 = FFW
 # 9685 = FFW Test
-CLUSTERS = [5649, 9685]
+CLUSTERS = [5649]
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
