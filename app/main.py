@@ -8,7 +8,7 @@ from fastapi.responses import RedirectResponse
 import requests
 import logging
 
-CLUSTER_GROUPS = {5649: [138070], 9685: [138069]}
+CLUSTER_GROUPS = {5649: [22697, 138070], 9685: [138069]}
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
